@@ -1,30 +1,19 @@
-<?php 
-
-require_once("inc/header.php");
-
-?>
-
 <html>
 	<head>
 		<title><?php echo name; ?></title>
 		<link href="./css/bootstrap.min.css" rel="stylesheet">
-		<link href="./css/theme.css?<?php echo time(); ?>" rel="stylesheet">
+		<link href="./css/theme.css" rel="stylesheet">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
   		<script src="https://kit.fontawesome.com/de96098ae9.js" crossorigin="anonymous"></script>
 	</head>
 	<body class="bg-dark">
 		<div class="container mt-auto pb-5">
-  			<!-- Navigation Bar starts here -->
-  			<?php //require_once("inc/nav.php") ?>
-  			<!-- Navigation Bar ends here -->
-
-
   			<!-- Content starts here -->
   			<div class="row">
   				<div class="col-md-8 mx-auto mt-5">
   					<div class="card bg-dark card-shadow">
   						<div class="card-header text-white bg-dark">
-  							Welcome to <?php echo name ?>
+  							Welcome to Ethosec
   						</div>
   						<div class="card-body bg-dark text-white">
 							Welcome to ETHOSEC! At ETHOSEC, we believe that ethics and security go hand-in-hand. Our mission is to promote responsible and secure practices within the technology industry. Here you will find resources, information, and insights on how to balance ethical considerations with the need for security. Thank you for visiting and we look forward to being your trusted partner in the ever-evolving landscape of ethics and security.
